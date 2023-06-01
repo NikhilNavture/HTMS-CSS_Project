@@ -1,0 +1,218 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+header{
+background-color: purple;
+    width: 100%;
+        position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+text-align: center;}
+
+.bgc{margin: 0 auto;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.name h2{
+    font-size: 40px;
+}
+.nav_element{
+
+    display: flex;gap: 10px;
+}
+
+.nav_ele a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.hero{
+    background-image: url(images/hero_image.png);
+    height: 800px;width: 100%;
+    position: relative;
+    background-position: center;
+    color: aliceblue;background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_c
+{
+    max-width: 1200px;
+    height: 900px;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.hero_c h1{
+    font-size:99px;
+    margin-bottom: 15px;
+}
+.hero_c h3 {
+    font-size: 35px;margin-bottom: 15px;
+}
+
+
+.music{
+    position: relative;
+    background-color: rgb(83, 5, 83);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.music h3{
+    font-size: 25px;
+    margin-top:20px ;
+    margin-bottom: 20px;
+
+}
+
+.music p {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.music button{
+    padding: 5px;border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+        transition: 0.2s;
+
+}
+.music button:hover {
+    color: white;transition: 0.2s;
+    background-color: rgb(37, 30, 30);
+
+}
+
+.music span {
+  
+    margin-top: 20px;
+    
+
+}
+.ig3{
+    width: 100%;
+    max-height: 100%;
+  
+   
+
+   
+    
+}
+.ig3 img{
+    width: 99%;
+    
+}
+.GG1{
+    
+max-height: 500px;
+    width: 100%;background-color:rgb(83, 5, 83) ;
+    
+}
+.GG2 {
+    min-height: 550px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+@media (max-width:1100px) {
+
+    .GG1 {
+        max-height: 300px;
+    }
+
+    .GG2 {
+        min-height: 400px;
+        width: 100%;
+        background-color: white;
+    }
+}
+@media (max-width:800px) {
+
+    .GG1 {
+        max-height: 200px;
+    }
+
+    .GG2 {
+        min-height: 300px;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    .GG1 {
+        max-height: 200px;
+    }
+
+    .GG2 {
+        min-height: 200px;
+        width: 100%;
+        background-color: white;
+    }
+}
+
+
+.info{
+    background-color: white;
+    width: 100%;
+    margin-top:100px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+
+.info span{
+
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.info p{
+
+    font-size: 15px;
+    margin-top:80px;
+}
+.info button {
+
+    font-size: 15px;
+    margin-top: 50px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.info button:hover{
+color: aliceblue;
+    background-color: black;
+    font-weight: bold;
+
+}
+
+.laptop{
+max-width:1000px;
+margin:0 auto;
+}
+.laptop img{
+    width: 100%;
+}
